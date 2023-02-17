@@ -1,0 +1,226 @@
+body{
+    margin:0;
+    background-color:black;
+}
+header{
+    margin:0;
+    padding:0;
+    background-image: url("https://playerxtreme.com/wp-content/uploads/2018/01/feature.jpg");
+    background-size:100%;
+    height: 600px;
+    width:100%;
+
+}
+header, main{
+    color:#fff;
+}
+#logo{
+text-align:left;
+
+}
+
+#first-line{
+    display:flex;
+    justify-content: space-between;
+}
+#up-right-button{
+    background-color:rgb(204, 37, 37);
+    color:white;
+    font-size:15px;
+    padding:10px 17px;
+    border-radius:15%;
+    margin-right:50px;
+}
+#rig{
+
+margin-top:0;
+
+}
+h1,#firsth2,h3,form{
+text-align:center;
+}
+h1{
+  margin-top:100px;
+}
+select {
+    background-color: black;
+    color: white;
+    margin:10px;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid white;
+    margin-right:30px;
+
+}
+select option {
+    position: absolute;
+    background-color:grey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+form button{
+    background-color:rgb(204, 37, 37);
+    color:#fff;
+    font-size:20px;
+    height:70px;
+  width:250px;
+
+}
+form input{
+  height:65px;
+  width:450px;
+  padding:0;
+  font-size:16px;
+}
+form button:hover{
+    background-color:rgb(245, 24, 24);
+ }
+ @media only screen and (max-width: 1449px) and (min-width: 950px)
+ {header h1
+   {
+    font-size:3.125em;
+   }
+ }
+ @media only screen and (max-width: 1449px) and (min-width: 950px), only screen and (min-width: 1450px)
+ {
+   header h1{
+     font-size:4em;
+   }
+ }
+ @media only screen and (max-width: 1449px) and (min-width: 950px), only screen and (min-width: 1450px)
+ {
+   #firsth2{
+     font-size:1.625em;
+   }
+ }
+ @media screen and (min-width: 740px){
+  #firsth2 {
+    font-size: 27px;
+}}
+@media only screen and (max-width: 1449px) and (min-width: 950px), only screen and (min-width: 1450px)
+{ #firsth3
+  {
+font-size:1.2rem;
+
+    padding-bottom: 20px;
+  }}
+
+  hr{
+    background-color:rgb(51, 50, 50);
+    height:8px;
+    margin:0;
+    border:0;
+
+  }
+  section.video{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    
+  }
+  section.imgi{
+    display:flex;
+    flex-flow:row-reverse wrap;
+    justify-content: center;
+    
+  }
+
+  section h1{
+    font-size:50px;
+  }
+  section h2{
+    font-size:1.625rem;
+  }
+
+  section.video scris h2{
+    width:500px;
+    
+    
+  }
+
+  #charging-sign{
+    margin-top:250px;
+    height:100px;
+    margin-right:0;
+  }
+
+  #image1{
+    margin-top:60px;
+   width:500px;
+  }
+
+  #image2{
+    height:auto;
+    width:600px;
+  }
+  @media only screen and (max-width: 800px) and (min-width: 450px)
+  {#image2
+    {
+     margin-left:0;
+    }
+  }
+  
+  #last-section ul{
+    list-style: none;
+    padding:0;
+    margin:20px 28%;
+  }
+
+  .greu{
+    background-color:rgb(51, 50, 50);
+    width:600px;
+    height:80px;
+    font-size:20px;
+    color:#fff;
+    
+  }
+span{
+  font-size: 38px;
+}
+#last-section div{
+width:600px;
+}
+footer{
+  color:darkgrey;
+  display:block;
+  
+}
+footer ul{
+  list-style:none;
+  padding-left:0;
+  display:flex;
+  flex-flow:column nowrap;
+  padding-right:100px;
+  
+}
+footer a{
+  color:darkgrey;
+}
+footer p{
+  font-size:13px;
+}
+footer sec{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content: center;
+}
+footer p{
+  text-align:center;
+  padding-right:35%;
+}
+@media only screen and (max-width: 750px) and (min-width: 450px)
+{footer select
+  {
+   margin-left:50px;
+  }
+}
+footer select{
+  margin-left:500px;
+  
+}
+#lasth3{
+  margin-top: 60px ;
+}
+#lasthr{
+  margin-top:80px;
+}

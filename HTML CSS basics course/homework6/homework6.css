@@ -1,0 +1,130 @@
+
+body {
+    background-color:lightgoldenrodyellow;
+}
+  
+  @media screen and (max-width: 400px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  @media screen and (min-width: 401px) and (max-width: 7500px) {
+    body {
+      background-color: teal;
+    }
+  }
+  @media screen and (min-width: 750px) {
+    body {
+      background-color: lavender;
+    }
+}
+.plain-text {
+    font-size:120%;
+    text-decoration-style: wavy;
+    font-family:cursive;
+}
+
+#ingredients{
+    font-size:25px;
+    list-style-type: square;
+    width: 500px;
+    padding:0;
+}
+
+#what-are-you-cooking{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color:rgb(143, 111, 5);
+    font-size:100px;
+    padding-bottom:50px;
+    margin-top:100px;
+    font-weight: initial;
+    
+}
+
+ul.link-list{
+    list-style-image: url("bullet.jpg");
+}
+
+p>span{
+    font-style:italic;
+}
+
+.image-pasta{
+    color: lightgrey;
+    box-shadow: 14px -12px;
+}
+
+.images{
+    width:500px;
+    height:auto;
+    margin-right:100px;
+}
+
+#steps{
+    font-size:20px;
+    list-style-type: upper-roman;
+    width: 500px;
+}
+
+#lastSpan{
+    text-decoration-line:underline;
+}
+
+.first-span{
+    font-style:normal;
+    color:red;
+}
+
+nav{
+   font-size:30px;
+   height:50px;
+   line-height:50px;
+}
+
+nav ul{
+    list-style:none;/*list without bullet points*/
+    padding:0;/*no padding from ul*/
+    display:flex;/*puts elements in a line*/
+    flex-flow:row wrap;
+    /*justify-content: center;/*property of flex*/
+
+}
+nav ul li{
+    /*margin: 0 10px;*/
+    background-color:magenta;
+
+    /*border-radius:25%;/*makes elements look like round buttons*/
+}
+nav li:hover{
+    background-color: lightsalmon;
+    }
+nav a{
+    text-decoration:none;
+    color:white;
+    display: block;
+    padding:0 20px;
+    border:2px solid blue;/*size, kind of, color*/
+}
+#intro
+{
+    text-align:center;
+}
+main {
+    display:flex;
+    margin-left: 40px;
+    flex-flow:row wrap;
+}
+#ingredients-image{
+    height:500px;
+    width:auto;
+    margin-top:110px;
+    margin-left:15px;
+    margin-right:10px;
+}
+
+#last-image{
+    width: 25%;
+    height: auto;
+
+}

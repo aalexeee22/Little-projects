@@ -1,0 +1,50 @@
+/*https://www.htmldog.com/references/css/properties/*/
+body {
+    background:lightgoldenrodyellow;
+}
+.plain-text {
+    font-size:35px;
+    text-decoration-style: wavy;
+    font-family:cursive;
+}
+.unordered-list{
+    font-size:30px;
+    list-style-type: square;
+    margin-left:50px;
+}
+
+#what-are-you-cooking{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color:rgb(143, 111, 5);
+    font-size:100px;
+    padding-bottom:50px;
+    font-weight: initial;
+    
+}
+ul.link-list{
+    list-style-image: url("bullet.jpg");
+}
+p>span{
+    font-style:italic;
+}
+.image-pasta{
+    color: lightgrey;
+    box-shadow: 14px -12px;
+}
+.images{
+    width:500px;
+    height:auto;
+    margin-right:100px;
+}
+ol.ordered-list{
+    font-size:30px;
+    list-style-type: upper-roman;
+}
+#lastSpan{
+    text-decoration-line:underline;
+}
+.first-span{
+    font-style:normal;
+    color:red;
+}

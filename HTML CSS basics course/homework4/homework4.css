@@ -1,0 +1,22 @@
+/*https://www.htmldog.com/references/css/properties/*/
+body {
+    background:lightgoldenrodyellow;
+}
+p {
+    font-size:20px;
+    text-decoration-style: wavy;
+   
+}
+ul,ol{
+    font-size:200%;
+}
+h1{
+    text-decoration-line: underline;
+    padding-bottom:50px;
+    font-weight: initial;
+    
+}
+img{
+    color: lightgrey;
+    box-shadow: 10px -10px;
+}
